@@ -1,9 +1,9 @@
 num = int(input("Enter a number: "))
 if num % 7 == 0 and num % 5 == 0:
-    print("FooBar")
+       print("foobar")
 elif num % 7 == 0:
-    print("Foo")
+       print("foo")
 elif num % 5 == 0:
-    print("Bar")
+       print("bar")
 else:
-    print("num")
+       print(num)
